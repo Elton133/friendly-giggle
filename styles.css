@@ -362,7 +362,7 @@ button:hover{
 
     #quote{
         font-family: "Cookie", serif;
-        font-size: 1.5em;
+        font-size: 2em;
         padding: 20px;
         margin: 10px;
     }
@@ -378,6 +378,7 @@ button:hover{
     .contact{
         font-size: 1.1em;
         text-align: center;
+        line-height: 1;
     }
     .reach-out{
         text-align: center;
