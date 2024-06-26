@@ -18,6 +18,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -36,7 +41,7 @@
                     <a href="#gallery">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a href="">Contact</a>
+                    <a href="#contact-section">Contact</a>
                 </li>
             </ul>
         </div>
@@ -753,6 +758,49 @@
         </div>
     </div>
 
+    <div class="fluid-container">
+        <div id="contact-section" class="row">
+            <div class="col-md-6">
+                <p class="get-in-touch">
+                    Get In Touch With Me for Collaboratiion <br>
+                </p>
+                <p class="reach-out">
+                    Reach out to me via email for collaborations or inquiries
+                </p>
+                <p class="contact">
+                    *Email Me Directly
+                </p>
+                <p class="contact">
+                    *Connect With Me on linkedIn
+                </p>
+                <p class="contact">
+                    *Download My Resume
+                </p>
+            </div>
+            <div class="col-md-6">
+                <section class="contact-section">
+                    <h1>Get In Touch</h1>
+                    <p class="reach-out ">
+                        I would love to hear from you.
+                    </p>
+                    <form action="" class="contact-form">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required />
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" email="email" required />
+
+                        <label for="number">Phone Number</label>
+                        <input type="text" id="number" name="number" required placeholder="+(233)234-56789" />
+
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="2" required></textarea>
+                        <button type="button" class="btn btn-secondary">Send Message</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
