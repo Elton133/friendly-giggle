@@ -172,8 +172,8 @@ a{
 }
 #quote{
     font-size: 4em;
-    padding: 35px;
-    margin: 10px;
+    padding: .6em;
+    margin: .3em;
     font-family: "Cookie", cursive;
 }
 
@@ -183,13 +183,13 @@ a{
 
 .fluid-container:nth-of-type(5){
     background-color: black;
-    padding: 2em 13em;
+    padding: 2em 10em;
 }
 
 .contact-section{
     background-color: rgb(255, 255, 255);
     margin: auto;
-    padding: 20px;
+    padding: 1em;
     border-radius: 10px;
     width: 100%;
     max-width: 600px;  
