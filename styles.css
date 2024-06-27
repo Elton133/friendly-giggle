@@ -96,14 +96,15 @@ a{
     padding: 1.5em 9em;
 }
 .about-header{
-    font-size: 3em;
+    font-size: 2.5em;
 }
 .about{
-    font-size: 1.5em;
+    font-size: 1.3em;
+    margin-bottom: 0;
 }
 
 .keyfeatures{
-    font-size: 3em;
+    font-size: 2.4em;
     margin-left: 1.2em;
 }
 
@@ -113,12 +114,12 @@ a{
 }
 .headers{
     padding-top:.3em;
-    font-size:2em ;
+    font-size:1.7em ;
     font-weight: bold;
     line-height: 1;
 }
 .content{
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .fluid-container:nth-of-type(3){
