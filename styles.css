@@ -18,16 +18,16 @@ body{
 .navbar .navbar-brand{
     color: white;
     font-size: 2em;
-    margin-left: 5px;
+    margin-left: 0.5em;
 }
 
 .navbar-nav{
     font-size: 1.3em;
-    margin-left: 5px;
+    margin-left: .3em;
 }
 
 .navbar-nav .nav-item{
-    padding: 15px;    
+    padding: 1em;    
 }
 
 a{
