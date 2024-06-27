@@ -104,7 +104,7 @@ a{
 
 .keyfeatures{
     font-size: 3em;
-    margin-left: 20px;
+    margin-left: 1.2em;
 }
 
 #icon{
@@ -112,7 +112,7 @@ a{
     height: 5em;
 }
 .headers{
-    padding-top:10px;
+    padding-top:1em;
     font-size:2em ;
     font-weight: bold;
     line-height: 1;
@@ -182,8 +182,7 @@ a{
 
 .fluid-container:nth-of-type(5){
     background-color: black;
-    padding: 20px 100px;
-
+    padding: 2em 13em;
 }
 
 .contact-section{
@@ -383,3 +382,9 @@ button:hover{
 
 }
 
+/* @media only screen and (1000px <= max-width >=2200px){
+    .fluid-container:nth-of-type(5){
+        padding: 50px 300px;
+    }
+   
+} */
