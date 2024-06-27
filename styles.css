@@ -164,7 +164,7 @@ a{
 .showcase{
     font-family: "Lobster Two", serif;
     font-size: 3.5em;
-    margin-left:60px;
+    margin-left:1em;
 }
 
 .fluid-container:nth-of-type(4){
@@ -178,7 +178,7 @@ a{
 }
 
 .line{
-    margin: 0 100px;
+    margin: 0 2em;
 }
 
 .fluid-container:nth-of-type(5){
