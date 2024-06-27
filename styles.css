@@ -93,7 +93,7 @@ a{
 .fluid-container:nth-of-type(2){
     background-color: 	#2aabd2a9;
     color: rgb(255, 248, 248);
-    padding: 50px 200px;
+    padding: 1.5em 9em;
 }
 .about-header{
     font-size: 3em;
@@ -112,7 +112,7 @@ a{
     height: 5em;
 }
 .headers{
-    padding-top:1em;
+    padding-top:.3em;
     font-size:2em ;
     font-weight: bold;
     line-height: 1;
