@@ -60,7 +60,7 @@
 
 
     <div class="fluid-container">
-        <div id="about-me" class="row align-items-center text-center mb-0">
+        <div id="about-me" class="row align-items-center text-center ">
             <div class=" col-md-8 order-md-1 order-sm-2">
                 <p class="about">
                     With a passion for excellence and a diverse portfolio, I bring your visions to life through
@@ -767,19 +767,19 @@
                     <p class="reach-out ">
                         I would love to hear from you.
                     </p>
-                    <form action="" class="contact-form">
+                    <form action="process_form.php" class="contact-form" method="post">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" required />
 
                         <label for="email">Email</label>
                         <input type="text" id="email" email="email" required />
 
-                        <label for="number">Phone Number</label>
-                        <input type="text" id="number" name="number" required placeholder="+(233)234-56789" />
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="+(233)234-56789" />
 
                         <label for="message">Message</label>
                         <textarea name="message" id="message" rows="2" required></textarea>
-                        <button type="button" class="btn btn-secondary">Send Message</button>
+                        <button type="button" class="btn btn-secondary" id="send-button">Send Message</button>
                     </form>
                 </section>
             </div>
